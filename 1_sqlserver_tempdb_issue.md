@@ -23,3 +23,8 @@ If the 'tempdb' issue is related to row-store Index then  better to use  RESUMAB
 As a short-term or quick solution, **increase the VCore** allocation to get more tempdb resources and reduce contention or size issues.<br>
 https://docs.azure.cn/en-us/azure-sql/database/resource-limits-vcore-single-databases#gen5-hardware-part-1-2
 
+### Other Solutions
+If tempdb space is limited, you might consider:<br>
+Using ONLINE index rebuilds (if supported) to reduce tempdb usage.<br>
+Splitting the rebuild into partition-level operations.<br>
+
