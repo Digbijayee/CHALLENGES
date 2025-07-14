@@ -3,6 +3,11 @@
 
 
 
+**Reference URL**
+https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-improvements
+
+![Alt text](msdevops.png)
+
 
 ```yaml
 # Generic Azure Data Factory CI/CD Pipeline
